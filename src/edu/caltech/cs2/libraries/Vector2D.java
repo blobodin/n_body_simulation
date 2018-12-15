@@ -60,7 +60,7 @@ public class Vector2D {
   }
 
   private static boolean doubleCompare(double a, double b) {
-    return Double.compare(a, b) == 0 || Math.abs(a - b) < Vector2D.EQUALITY_THRESHOLD;
+    return Double.compare(a, b) == 0 || Math.abs((a - b)/a) < Vector2D.EQUALITY_THRESHOLD;
   }
 
   /***
