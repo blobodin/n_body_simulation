@@ -187,8 +187,8 @@ public class NBodySimulationTests {
                   "107788000.0 25000.0 data/simulations/planets.txt",
                   "125000.0 125000.0 data/simulations/planets.txt",
                   "157788000.0 25000.0 data/simulations/1body.txt",
-                  "157788000.0 25000.0 data/simulations/3body.txt",
-                  "7788000.0 25000.0 data/simulations/galaxy.txt"
+                  "15778800.0 20000.0 data/simulations/3body.txt",
+                  "7788000.0 5000.0 data/simulations/awesome.txt"
           },
           outputFiles = {
                   "planets-out-1.txt",
@@ -197,7 +197,7 @@ public class NBodySimulationTests {
                   "planets-out-4.txt",
                   "1body-out.txt",
                   "3body-out.txt",
-                  "galaxy-out.txt"
+                  "awesome-out.txt"
           }
   )
   public void testMainEverything(String arguments, String expectedOutput, CaptureSystemOutput.OutputCapture capture) {
