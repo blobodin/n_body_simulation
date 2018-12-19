@@ -205,6 +205,6 @@ public class NBodySimulationTests {
       Method main = Reflection.getMethod(NBodySimulation.class, "main", String[].class);
       Reflection.invokeStatic(main, (Object) arguments.split(" "));
       StdDraw.setDoNothing(false);
-      assertEquals(expectedOutput.strip(), capture.toString().strip());
+      assertEquals(expectedOutput.strip().replace("\r\n", "\n"), capture.toString().strip().replace("\r\n", "\n"));
   }
 }
