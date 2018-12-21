@@ -42,6 +42,16 @@ public class Vector2D {
   public Vector2D add(Vector2D other) {
     return new Vector2D(this.getX() + other.getX(), this.getY() + other.getY());
   }
+  
+  /***
+   * Returns a {@code Vector2D} whose value is (s * {@code this}), where s is
+   * some scalar.
+   * @param s scalar value to multiply {@code this} {@code Vector2D} by
+   * @return s * {@code this}
+   */
+  public Vector2D scale(double s) {
+    return new Vector2D(this.getX() * s, this.getY() * s);
+  }
 
   @Override
   public String toString() {
