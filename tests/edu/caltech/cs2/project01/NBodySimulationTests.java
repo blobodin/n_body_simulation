@@ -80,7 +80,7 @@ public class NBodySimulationTests {
       IBody[] bodies = (IBody[])Array.newInstance(this.BodyClass, 0);
       Method printState = Reflection.getMethod(NBodySimulation.class, "printState", double.class, IBody[].class);
       Reflection.invokeStatic(printState, Double.parseDouble(argument), bodies);
-      assertEquals(expected, capture.toString());
+      assertEquals(expected.replace("\r\n", "\n"), capture.toString().replace("\r\n", "\n"));
     }
 
     @Order(1)
