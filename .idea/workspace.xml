@@ -7,133 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6496c0f5-b298-4c62-b2af-fd4226071b08" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/tests/data/1body-out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/data/3body-out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/data/galaxy-out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/data/planets-final-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/data/planets-out-2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/data/planets-out-3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/data/planets-out-4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/data/printState-out-1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/data/printState-out-2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/data/printState-out-3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_params_5_4_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_params_5_4_0_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/fake/values-earth.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/fake/values-earth.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/fake/values-mars.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/fake/values-mars.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/fake/values-mercury.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/fake/values-mercury.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/fake/values-sun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/fake/values-sun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/fake/values-venus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/fake/values-venus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/edu/caltech/cs2/libraries/FakeBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/edu/caltech/cs2/libraries/IBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/edu/caltech/cs2/libraries/StdDraw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/edu/caltech/cs2/libraries/Vector2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/edu/caltech/cs2/project01/Body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/edu/caltech/cs2/project01/NBodySimulation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/fake/values-earth.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/fake/values-mars.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/fake/values-mercury.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/fake/values-sun.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/fake/values-venus.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/acorn-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/acorn3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/asteroid.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/ball.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/blackhole.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/comet.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/death_star.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/earth.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/electron.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/endor.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/goodbye.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/imback.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/its_a_trap.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/jupiter.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/mars.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/mercury.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/neptune.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/ninjasquirrel_red.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/nucleus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/pin.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/pluto.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/rebel_cruiser.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/saturn.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/squirrel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/star.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/star_destroyer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/starfield.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/sun.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/uranus.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/images/venus.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/1body.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/3body-zero-gravity.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/3body.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/4body-zero-gravity.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/8star-rotation.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/antimatter.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/armageddon.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/atom.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/awesome.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/binary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/binaryStars.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/bowling.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/chaosblossom.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/dance10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/entropy-universe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/figure8-rotating.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/figure8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/fourellipses.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/galaxy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/hypnosis.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/illusion.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/its-a-trap.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/kaleidoscope.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/massive-squirrel-battle.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/planets-elliptical.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/planets-zero-gravity.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/planets.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/planetsparty.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/pluto.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/renegade.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/sbh2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/sbh3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/soap-opera.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/spiral.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/suninterference.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/twin-binaries.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/uniform100.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/uniform3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project01-nbodysimulation/simulations/uniform8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/data/empty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/data/planets-final.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/data/planets-initial.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/data/planets-out.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/helpers/CaptureSystemOutput$Extension.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/helpers/CaptureSystemOutput$OutputCapture$CaptureOutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/helpers/CaptureSystemOutput$OutputCapture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/helpers/CaptureSystemOutput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/helpers/FileSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/helpers/FileSourceProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/helpers/ImageFileSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/helpers/ImageFileSourceProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/helpers/Images.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/helpers/Inspection$ConstructorCollector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/helpers/Inspection$MethodCollector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/helpers/Inspection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/helpers/Reflection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/project01/BodyTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/project01/NBodySimulationTests$BTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/project01/NBodySimulationTests$BodyTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/project01/NBodySimulationTests$FakeBodyTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/project01-nbodysimulation/edu/caltech/cs2/project01/NBodySimulationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/caltech/cs2/project01/NBodySimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/caltech/cs2/project01/NBodySimulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/data/planets-final.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/data/planets-out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/data/planets-out-1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/edu/caltech/cs2/helpers/Reflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/edu/caltech/cs2/helpers/Reflection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/edu/caltech/cs2/project01/BodyTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/edu/caltech/cs2/project01/BodyTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/edu/caltech/cs2/project01/NBodySimulationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/edu/caltech/cs2/project01/NBodySimulationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -154,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project01/NBodySimulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="96">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -166,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project01/BodyTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="273" column="36" lean-forward="true" selection-start-line="273" selection-start-column="36" selection-end-line="273" selection-end-column="36" />
+            <state relative-caret-position="5952">
+              <caret line="273" column="36" selection-start-line="273" selection-start-column="36" selection-end-line="273" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,32 +52,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/libraries/Vector2D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="1296">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../project01-reference-solution/src/edu/caltech/cs2/project01/Body.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../project01-reference-solution/src/edu/caltech/cs2/project01/NBodySimulation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-728" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project01/Body.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="360">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -238,7 +96,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -318,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -390,6 +247,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Course" />
     </panes>
@@ -408,7 +266,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/IdeaProjects/project01/tests/edu/caltech/cs2/project01/BodyTests.java" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../Downloads/IdeaProjects/project01/tests/edu/caltech/cs2/project01/BodyTests.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -558,7 +416,7 @@
     <frame x="18" y="23" width="1402" height="834" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29558823" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -568,7 +426,7 @@
       <window_info id="Query Editor" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2991914" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2991914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -687,10 +545,10 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java" />
-    <entry file="file://$USER_HOME$/Downloads/IdeaProjects/project01/tests/edu/caltech/cs2/project01/NBodySimulationTests.java">
+    <entry file="file://$PROJECT_DIR$/../Downloads/IdeaProjects/project01/tests/edu/caltech/cs2/project01/NBodySimulationTests.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/IdeaProjects/project01/tests/edu/caltech/cs2/project01/BodyTests.java">
+    <entry file="file://$PROJECT_DIR$/../Downloads/IdeaProjects/project01/tests/edu/caltech/cs2/project01/BodyTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2683" />
       </provider>
@@ -873,9 +731,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1015" column="22" selection-start-line="1015" selection-start-column="22" selection-end-line="1015" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project01-reference-solution/src/edu/caltech/cs2/project01/NBodySimulation.java" />
+    <entry file="file://$PROJECT_DIR$/../project01-reference-solution/src/edu/caltech/cs2/project01/Body.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project01/NBodySimulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project01/BodyTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5952">
+          <caret line="273" column="36" selection-start-line="273" selection-start-column="36" selection-end-line="273" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/libraries/Vector2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project01/Body.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="360">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -884,49 +775,6 @@
             <element signature="e#412#413#0" expanded="true" />
             <element signature="e#433#434#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project01/NBodySimulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project01/BodyTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="273" column="36" lean-forward="true" selection-start-line="273" selection-start-column="36" selection-end-line="273" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Double.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1015" column="22" selection-start-line="1015" selection-start-column="22" selection-end-line="1015" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/libraries/Vector2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project01-reference-solution/src/edu/caltech/cs2/project01/NBodySimulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-728" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../project01-reference-solution/src/edu/caltech/cs2/project01/Body.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
         </state>
       </provider>
     </entry>
