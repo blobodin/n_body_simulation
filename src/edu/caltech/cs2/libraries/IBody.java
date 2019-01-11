@@ -42,5 +42,6 @@ public interface IBody<B extends IBody> {
    * as the simulations.
    * @return string representation of {@code this} {@code IBody}
    */
+  @Override
   public String toString();
 }

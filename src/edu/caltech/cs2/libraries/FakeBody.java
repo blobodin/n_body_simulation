@@ -26,18 +26,22 @@ public class FakeBody implements IBody<FakeBody> {
     }
   }
 
+  @Override
   public void calculateNewForceFrom(FakeBody[] bodies) {
     // The fake implementation is to do nothing
   }
 
+  @Override
   public void updatePosition(double dt) {
     // The fake implementation is to do nothing
   }
 
+  @Override
   public Vector2D getCurrentPosition() {
     return Vector2D.fromString(in.nextLine());
   }
 
+  @Override
   public String getFileName() {
     return this.bodyname + ".gif";
   }
@@ -48,6 +52,7 @@ public class FakeBody implements IBody<FakeBody> {
    * the x and y components of the velocity will <b>not</b> be included in the return value.
    * @return a string representation of {@code this} {@code FakeBody}
    */
+  @Override
   public String toString() {
     Vector2D position = this.getCurrentPosition();
     return String.format("%11.4e %11.4e %12s", position.getX(), position.getY(), this.getFileName());
