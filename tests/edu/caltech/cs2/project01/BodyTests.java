@@ -39,7 +39,7 @@ public class BodyTests {
   public void testGConstant() {
     Field G = Reflection.getFieldByModifiers(Body.class, "static");
     Reflection.checkFieldModifiers(G, List.of("private", "static", "final"));
-    assertEquals(6.67E-11, Reflection.getFieldValue(Body.class, G.getName(), Body.class));
+    assertEquals(6.67E-11, (double)Reflection.getFieldValue(Body.class, G.getName(), Body.class));
   }
 
   @Order(0)
