@@ -1,7 +1,5 @@
 package edu.caltech.cs2.helpers;
 
-import edu.caltech.cs2.project01.Body;
-
 import java.lang.reflect.*;
 import java.util.*;
 import java.util.function.*;
@@ -19,6 +17,16 @@ public class Reflection {
     } catch (NoSuchFieldException | IllegalAccessException e) {
       fail("Could not find field " + name + " in class " + clazz.getName());
       return null;
+    }
+  }
+
+  public static <T> void setFieldValue(Class clazz, String name, Object o, Object v) {
+    try {
+      Field field = clazz.getDeclaredField(name);
+      field.setAccessible(true);
+      field.set(o, v);
+    } catch (NoSuchFieldException | IllegalAccessException e) {
+      fail("Could not find field " + name + " in class " + clazz.getName());
     }
   }
 
@@ -74,7 +82,13 @@ public class Reflection {
     try {
       result = (T) c.newInstance(args);
     } catch (IllegalAccessException | InvocationTargetException | InstantiationException e) {
-      fail(e.getCause());
+      Throwable cause = e.getCause();
+      if (cause instanceof RuntimeException) {
+        throw (RuntimeException)e.getCause();
+      }
+      else {
+        fail(cause);
+      }
     }
     return result;
   }

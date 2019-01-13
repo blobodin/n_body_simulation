@@ -114,7 +114,7 @@ public class BodyTests {
     assertEquals(filename, Reflection.getFieldValue(Body.class, filenameField.getName(), b));
 
     Field massField = Reflection.getNonStaticFieldByType(Body.class, double.class);
-    assertEquals(mass, Reflection.getFieldValue(Body.class, massField.getName(), b));
+    assertEquals(mass, (double)Reflection.getFieldValue(Body.class, massField.getName(), b));
 
     for (Vector2D v : List.of(new Vector2D(xp, yp), new Vector2D(xv, yv))) {
       Stream<Field> vectorFields = Reflection.getFields(Body.class).filter(Reflection.hasType(Vector2D.class));
@@ -141,7 +141,7 @@ public class BodyTests {
   @Order(0)
   @Tag("B")
   @DisplayName("The NBody(Vector2D, Vector2D, double, String) constructor works correctly")
-  @ParameterizedTest(name = "NBody(<{0}, {1}>, <{2}, {3}>, {4}, {5}) populates all instance variables correctly")
+  @ParameterizedTest(name = "NBody({0}, {1}, {2}, {3}) populates all instance variables correctly")
   @CsvSource({
           "<1 2>, <3 4>, 5, name",
           "<1.1 2.2>, <3.3 4.4>, 5.5, þú"

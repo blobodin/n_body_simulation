@@ -8,6 +8,8 @@ import org.junit.platform.commons.util.Preconditions;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.stream.Stream;
 
@@ -29,7 +31,21 @@ public class FileSourceProvider implements ArgumentsProvider, AnnotationConsumer
   public Stream<? extends Arguments> provideArguments(ExtensionContext context) {
     Arguments[] args = new Arguments[this.outputFiles.length];
     for (int i = 0; i < this.outputFiles.length; i++) {
-      String inputArgs = this.inputs[i];
+      Object inputArgs = null;
+      String sArgs = this.inputs[i];
+      if (sArgs.startsWith("{")) {
+         sArgs = sArgs.substring(1, sArgs.length() - 1);
+         String[] argMaps = sArgs.split(", ");
+         Map<String, String> m = new HashMap<>();
+         for (String s : argMaps) {
+           String[] pieces = s.split(" = ");
+           m.put(pieces[0], pieces[1]);
+         }
+         inputArgs = m;
+      }
+      else {
+        inputArgs = sArgs;
+      }
       Scanner in = getScanner(this.outputFiles[i]);
       String output = in.useDelimiter("\\Z").next();
       args[i] = Arguments.arguments(inputArgs, output);
