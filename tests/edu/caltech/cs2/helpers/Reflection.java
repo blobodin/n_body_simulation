@@ -61,7 +61,13 @@ public class Reflection {
     try {
       result = (T) m.invoke(args[0], Arrays.copyOfRange(args, 1, args.length));
     } catch (IllegalAccessException | InvocationTargetException e) {
-      fail(e.getCause());
+      Throwable cause = e.getCause();
+      if (cause instanceof RuntimeException) {
+        throw (RuntimeException)e.getCause();
+      }
+      else {
+        fail(cause);
+      }
     }
     return result;
   }
@@ -72,7 +78,13 @@ public class Reflection {
     try {
       result = (T) m.invoke(null, args);
     } catch (IllegalAccessException | InvocationTargetException e) {
-      fail(e.getCause());
+      Throwable cause = e.getCause();
+      if (cause instanceof RuntimeException) {
+        throw (RuntimeException)e.getCause();
+      }
+      else {
+        fail(cause);
+      }
     }
     return result;
   }
@@ -98,16 +110,16 @@ public class Reflection {
   }
 
   private static int stringToIntModifier(String modifier) {
-      switch (modifier.toLowerCase()) {
-        case "private": return Modifier.PRIVATE;
-        case "public": return Modifier.PUBLIC;
-        case "protected": return Modifier.PROTECTED;
-        case "static": return Modifier.STATIC;
-        case "final": return Modifier.FINAL;
-        default: fail("Unknown modifier test.");
-      }
-      /* Should never reach here... */
-      return -1;
+    switch (modifier.toLowerCase()) {
+      case "private": return Modifier.PRIVATE;
+      case "public": return Modifier.PUBLIC;
+      case "protected": return Modifier.PROTECTED;
+      case "static": return Modifier.STATIC;
+      case "final": return Modifier.FINAL;
+      default: fail("Unknown modifier test.");
+    }
+    /* Should never reach here... */
+    return -1;
   }
 
   public static Predicate<Member> hasModifier(String modifier) {
@@ -184,7 +196,7 @@ public class Reflection {
   }
 
 
- public static void assertFieldsEqualTo(Class clazz, Class FieldType, int x) {
+  public static void assertFieldsEqualTo(Class clazz, Class FieldType, int x) {
     assertFieldsEqualTo(clazz, null, FieldType, x );
   }
   public static void assertFieldsEqualTo(Class clazz, String modifier, int x) {
