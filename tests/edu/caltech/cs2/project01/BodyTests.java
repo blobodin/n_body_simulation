@@ -44,9 +44,9 @@ public class BodyTests {
 
   @Order(0)
   @Tag("B")
-  @DisplayName("Position, velocity, and force are represented as Point2D fields")
+  @DisplayName("Position, velocity, and force are represented as Vector2D fields")
   @Test
-  public void testPoint2DFields() {
+  public void testVecotr2DFields() {
     Reflection.assertFieldsEqualTo(Body.class, "private", Vector2D.class, 3);
   }
 
