@@ -1,10 +1,10 @@
 package edu.caltech.cs2.project01;
 import edu.caltech.cs2.libraries.IBody;
+import edu.caltech.cs2.libraries.StdDraw;
 import edu.caltech.cs2.libraries.Vector2D;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-import static edu.caltech.cs2.libraries.StdDraw.*;
 
 public class NBodySimulation {
 
@@ -82,21 +82,21 @@ public class NBodySimulation {
         }
     }
     public static void setupDrawing(double radius) {
-        enableDoubleBuffering();
-        setScale(-radius, radius);
+        StdDraw.enableDoubleBuffering();
+        StdDraw.setScale(-radius, radius);
     }
 
     public static void drawStep(IBody[] bodies) {
-        picture(0, 0, "data/images/starfield.jpg");
+        StdDraw.picture(0, 0, "data/images/starfield.jpg");
         for (int i = 0; i < bodies.length; i++) {
             double[] coordinates = new double[2];
             Vector2D vector = bodies[i].getCurrentPosition();
             coordinates[0] = vector.getX();
             coordinates[1] = vector.getY();
             String filename = "data/images/" + bodies[i].getFileName();
-            picture(coordinates[0], coordinates[1], filename);
+            StdDraw.picture(coordinates[0], coordinates[1], filename);
         }
-        show();
+        StdDraw.show();
     }
 
     public static void printState(double radius, IBody[] bodies){

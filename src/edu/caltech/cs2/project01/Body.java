@@ -1,7 +1,7 @@
 package edu.caltech.cs2.project01;
 import edu.caltech.cs2.libraries.IBody;
 import edu.caltech.cs2.libraries.Vector2D;
-import static java.lang.Math.*;
+
 
 public class Body implements IBody<Body> {
   private final double mass;
@@ -32,7 +32,7 @@ public class Body implements IBody<Body> {
 
   private Vector2D getForceFrom(Body other) {
     double r = distanceTo(other);
-    double F = (G * this.mass * other.mass) / (pow(r, 2));
+    double F = (G * this.mass * other.mass) / (Math.pow(r, 2));
     double cos = (other.position.getX() - this.position.getX()) / r;
     double sin = (other.position.getY() - this.position.getY()) / r;
     double x = (F * cos);
@@ -86,8 +86,8 @@ public class Body implements IBody<Body> {
   }
 
   private double distanceTo(Body other) {
-    double distance = sqrt(pow((this.position.getX() - other.position.getX()), 2)
-            + pow((this.position.getY() - other.position.getY()), 2));
+    double distance = Math.sqrt(Math.pow((this.position.getX() - other.position.getX()), 2)
+            + Math.pow((this.position.getY() - other.position.getY()), 2));
     return distance;
   }
 
