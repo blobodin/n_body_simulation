@@ -16,22 +16,22 @@ public class NBodySimulation {
         int numBodies = 0;
         int j = 0;
         double radius = 0;
-        while(in.hasNextLine()){
-            if (j == 0){
+        while (in.hasNextLine()) {
+            if (j == 0) {
                 numBodies = Integer.parseInt(in.nextLine());
             }
-            if (j == 1){
+            if (j == 1) {
                 radius = Double.parseDouble(in.nextLine());
             }
             j++;
-            if(j > 2){
+            if (j > 2) {
                 break;
             }
         }
 
         Body[] bodies = readBodies(in, numBodies);
         setupDrawing(radius);
-        for(double t = 0.0; t < T; t += dt){
+        for (double t = 0.0; t < T; t += dt) {
             drawStep(bodies);
             calculateStep(bodies, dt);
         }
@@ -49,7 +49,7 @@ public class NBodySimulation {
             String line = "";
             while(in.hasNext()){
                 line += in.next() + " ";
-                if(j == 5){
+                if (j == 5){
                     break;
                 }
                 j++;
@@ -66,7 +66,7 @@ public class NBodySimulation {
 
             }
             i++;
-            if(i == numBodies) {
+            if (i == numBodies) {
                 break;
             }
         }
@@ -74,10 +74,10 @@ public class NBodySimulation {
     }
 
     public static void calculateStep(Body[] bodies, double dt) {
-        for(int i = 0; i < bodies.length; i ++){
+        for (int i = 0; i < bodies.length; i ++){
             bodies[i].calculateNewForceFrom(bodies);
         }
-        for(int i = 0; i < bodies.length; i++) {
+        for (int i = 0; i < bodies.length; i++) {
             bodies[i].updatePosition(dt);
         }
     }
@@ -101,8 +101,8 @@ public class NBodySimulation {
 
     public static void printState(double radius, IBody[] bodies){
         System.out.printf("%d" + "\n" + "%.2e".strip() + "\n", bodies.length, radius);
-        for(int i = 0; i < bodies.length; i++){
-            if(i == bodies.length-1){
+        for (int i = 0; i < bodies.length; i++) {
+            if (i == bodies.length-1){
                 System.out.print(bodies[i].toString());
             }
             else {
