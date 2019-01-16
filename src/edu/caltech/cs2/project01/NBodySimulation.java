@@ -1,13 +1,9 @@
 package edu.caltech.cs2.project01;
-
 import edu.caltech.cs2.libraries.IBody;
 import edu.caltech.cs2.libraries.Vector2D;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
-
 import static edu.caltech.cs2.libraries.StdDraw.*;
 
 public class NBodySimulation {

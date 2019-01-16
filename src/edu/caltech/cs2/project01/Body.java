@@ -1,8 +1,6 @@
 package edu.caltech.cs2.project01;
-
 import edu.caltech.cs2.libraries.IBody;
 import edu.caltech.cs2.libraries.Vector2D;
-
 import static java.lang.Math.*;
 
 public class Body implements IBody<Body> {
@@ -64,10 +62,16 @@ public class Body implements IBody<Body> {
   public void updatePosition(double dt) {
     double xAcc = this.force.getX() / this.mass;
     double yAcc = this.force.getY() / this.mass;
-    this.velocity = new Vector2D(Double.valueOf(this.velocity.getX()) + Double.valueOf((dt * xAcc)),
-            Double.valueOf(this.velocity.getY()) + Double.valueOf((dt * yAcc)));
-    this.position = new Vector2D(Double.valueOf(this.position.getX()) + Double.valueOf(dt * this.velocity.getX()),
-            Double.valueOf(this.position.getY()) + Double.valueOf(dt * this.velocity.getY()));
+    this.velocity = new Vector2D(
+            Double.valueOf(this.velocity.getX()) +
+                    Double.valueOf((dt * xAcc)),
+            Double.valueOf(this.velocity.getY()) +
+                    Double.valueOf((dt * yAcc)));
+    this.position = new Vector2D(
+            Double.valueOf(this.position.getX()) +
+                    Double.valueOf(dt * this.velocity.getX()),
+            Double.valueOf(this.position.getY()) +
+                    Double.valueOf(dt * this.velocity.getY()));
   }
 
   @Override

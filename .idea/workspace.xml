@@ -6,7 +6,11 @@
     <option name="CUSTOM_SCOPE_NAME" value="libraries" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6496c0f5-b298-4c62-b2af-fd4226071b08" name="Default Changelist" comment="Initial commit" />
+    <list default="true" id="6496c0f5-b298-4c62-b2af-fd4226071b08" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/caltech/cs2/project01/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/caltech/cs2/project01/Body.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/caltech/cs2/project01/NBodySimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/caltech/cs2/project01/NBodySimulation.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,17 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project01/NBodySimulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project01/BodyTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="191" column="43" selection-start-line="191" selection-start-column="43" selection-end-line="191" selection-end-column="43" />
+            <state>
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,23 +45,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/libraries/IBody.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
+            <state relative-caret-position="595">
               <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project01/Body.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state>
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#2413#2414#0" expanded="true" />
+                <element signature="e#2443#2444#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,13 +136,13 @@
         <option value="$PROJECT_DIR$/tests/data/planets-out-3.txt" />
         <option value="$PROJECT_DIR$/tests/data/planets-out-4.txt" />
         <option value="$PROJECT_DIR$/tests/edu/caltech/cs2/project01/NBodySimulationTests.java" />
-        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/NBodySimulation.java" />
-        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/Body.java" />
         <option value="$PROJECT_DIR$/../project01-reference-solution/src/edu/caltech/cs2/project01/Body.java" />
         <option value="$PROJECT_DIR$/src/edu/caltech/cs2/libraries/Vector2D.java" />
         <option value="$PROJECT_DIR$/src/edu/caltech/cs2/libraries/FakeBody.java" />
         <option value="$PROJECT_DIR$/src/edu/caltech/cs2/libraries/IBody.java" />
         <option value="$PROJECT_DIR$/tests/edu/caltech/cs2/project01/BodyTests.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/NBodySimulation.java" />
+        <option value="$PROJECT_DIR$/src/edu/caltech/cs2/project01/Body.java" />
       </list>
     </option>
   </component>
@@ -172,86 +165,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project01" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project01" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="fake" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cs2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cs2" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cs2" type="462c0819:PsiDirectoryNode" />
-              <item name="project01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project01" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project01" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project01" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="cs2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project01" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="cs2" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project01" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="cs2" type="462c0819:PsiDirectoryNode" />
-              <item name="project01" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="Course" />
     </panes>
   </component>
@@ -379,12 +295,17 @@
       <workItem from="1543198954089" duration="25430000" />
       <workItem from="1543558040300" duration="1193000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1547664757226</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547664757226</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C_Tests - 2018.12.15 at 07h 54m 36s.xml">
-      <configuration name="C Tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="C_Tests - 2018.12.15 at 07h 55m 06s.xml">
       <configuration name="C Tests" configurationId="JUnit" />
     </history-entry>
@@ -412,15 +333,18 @@
     <history-entry file="C_Tests - 2019.01.12 at 16h 36m 39s.xml">
       <configuration name="C Tests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="A_Tests - 2019.01.16 at 10h 52m 24s.xml">
+      <configuration name="A Tests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="91702000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30829757" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.020134227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -430,7 +354,7 @@
       <window_info id="Query Editor" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2987952" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2917847" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -439,7 +363,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32884097" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32884097" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32884097" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32803467" />
       <window_info anchor="bottom" id="CheckStyle" order="12" />
       <window_info anchor="bottom" id="Log Viewer" order="13" />
       <window_info anchor="bottom" id="DB Execution Console" order="14" />
@@ -508,6 +432,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../../.." />
     </ignored-roots>
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/data/simulations/twin-binaries.txt">
@@ -554,24 +480,12 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java" />
-    <entry file="file://$PROJECT_DIR$/../Downloads/IdeaProjects/project01/tests/edu/caltech/cs2/project01/NBodySimulationTests.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Downloads/IdeaProjects/project01/tests/edu/caltech/cs2/project01/BodyTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2683" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Downloads/IdeaProjects/project01/tests/edu/caltech/cs2/project01/NBodySimulationTests.java" />
+    <entry file="file://$PROJECT_DIR$/../Downloads/IdeaProjects/project01/tests/edu/caltech/cs2/project01/BodyTests.java" />
     <entry file="file://$PROJECT_DIR$/data/images/starfield.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Function.java" />
     <entry file="file://$PROJECT_DIR$/data/fake/values-mars.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -693,17 +607,7 @@
     <entry file="file://$PROJECT_DIR$/tests/data/planets-final-0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="156" column="19" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
-          <folding>
-            <element signature="e#5877#5878#0" expanded="true" />
-            <element signature="e#5913#5914#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java" />
     <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project01/NBodySimulationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -714,13 +618,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Double.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1015" column="22" selection-start-line="1015" selection-start-column="22" selection-end-line="1015" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Double.java" />
     <entry file="file://$PROJECT_DIR$/../project01-reference-solution/src/edu/caltech/cs2/project01/NBodySimulation.java" />
     <entry file="file://$PROJECT_DIR$/../project01-reference-solution/src/edu/caltech/cs2/project01/Body.java" />
     <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/libraries/FakeBody.java">
@@ -749,38 +647,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/libraries/IBody.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
+        <state relative-caret-position="595">
           <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project01/NBodySimulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project01/Body.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/edu/caltech/cs2/project01/BodyTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
+        <state relative-caret-position="226">
           <caret line="191" column="43" selection-start-line="191" selection-start-column="43" selection-end-line="191" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project01/NBodySimulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/caltech/cs2/project01/Body.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2413#2414#0" expanded="true" />
+            <element signature="e#2443#2444#0" expanded="true" />
           </folding>
         </state>
       </provider>
